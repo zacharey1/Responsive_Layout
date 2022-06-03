@@ -44,6 +44,10 @@ img {
     text-transform: uppercase;
 }
 
+.content p {
+    font-family: "Niramit", sans-serif;
+    font-weight: 350;
+}
 
 /* Media Queries */
 
@@ -81,7 +85,15 @@ img {
 
 .main-footer {
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+}
+
+.name2 {
+    justify-content: flex-start;
+}
+
+.footer-link {
+    justify-content: flex-end;
 }
 
 .content {
