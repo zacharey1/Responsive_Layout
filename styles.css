@@ -2,11 +2,14 @@
     box-sizing: border-box;
 }
 
+
+
 /* Basic Elements */
 
 body {
     margin: 0;
     line-height: 1.5;
+    font-size: 20px;
 }
 
 .section {
@@ -60,7 +63,7 @@ h3 {
 .nav1 li {
     background-color: white;
     margin: 2px auto;
-    padding: .75em 80vw;
+    padding: .5em 80vw;
 }
 
 .nav1 {
