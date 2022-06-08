@@ -38,6 +38,10 @@ a {
     font-size: 15px;
 }
 
+.name1 {
+    font-size: 25px;
+}
+
 .name2 {
     padding: 0 0 0 25px;
     font-size: 15px;
@@ -174,7 +178,18 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-    
+    .project {
+        flex: 1 33%;
+        padding: 5px;
+    }
+
+    .main-header {
+        flex-direction: row;
+    }
+
+    .name1 {
+        padding: 0 0 0 25px;
+    }
 }
 
 /* Flexbox */
