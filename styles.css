@@ -144,6 +144,7 @@ footer {
 
     .project {
         flex: 1 50%;
+        padding: 5px;
     }
 
     .nav1 li {
@@ -156,6 +157,17 @@ footer {
         margin: 0 15px 0 0;
         position: relative;
         bottom: 13px;
+    }
+
+    .section img {
+        float: right;
+        position: relative;
+        height: 120px;
+        max-width: 100%;
+    }
+
+    .heading {
+        clear: both;
     }
 
 }
